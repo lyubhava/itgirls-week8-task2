@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .block {
+        max-width: max-content;
+        background-color: tomato;
+    }
+}
+

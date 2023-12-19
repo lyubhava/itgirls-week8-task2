@@ -1,0 +1,38 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+html {
+  margin: 0;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-page {
+  display: flex;
+}
+.main-page__container {
+  background-color: tomato;
+}
+.main-page .heading {
+  color: tomato;
+}
+.main-page .heading_blue {
+  color: blue;
+}
+
+.shop-card .heading {
+  color: yellow;
+}
+
+/*# sourceMappingURL=styles.css.map */
